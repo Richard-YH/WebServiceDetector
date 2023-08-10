@@ -39,10 +39,10 @@ class ServiceDetector(threading.Thread):
         except Exception as e:
             pass
 
-start_ip = "140.113.207.17"
-end_ip = "140.113.207.17"
+start_ip = "start_ip"
+end_ip = "end_ip"
 start_port = 1
-end_port = 10000
+end_port = 65535
 
 scanner_threads = []
 
